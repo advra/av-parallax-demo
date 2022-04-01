@@ -33,7 +33,17 @@ p {
   background: #000000;
 }
 
+.home-icon {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  height: 25px;
+  z-index: 999;
+  cursor: pointer;
+}
+
 .banner-title {
+  user-select: none;
   top: 60px;
   z-index: 10;
   position: absolute;
@@ -46,6 +56,7 @@ p {
 }
 
 .banner-description {
+  user-select: none;
   top: 85%;
   z-index: 10;
   position: absolute;

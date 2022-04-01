@@ -1,6 +1,7 @@
 import React from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { ParallaxProvider, ParallaxBanner } from "react-scroll-parallax";
+import Navbar from "../Navbar/Navbar";
 
 import bg1 from "../../image/bg-1.png";
 import bg2 from "../../image/bg-2.png";
@@ -15,6 +16,8 @@ export default function App() {
     <main>
       <ParallaxProvider>
         <header>
+          <Navbar/>
+          {/* <img src={icon}className="home-icon"/> */}
           <div className="banner-title">AVALAR</div>
           <div className="banner-description">Explore, discover and rise to reclaim the shattered world of avalar</div>
           <ParallaxBanner

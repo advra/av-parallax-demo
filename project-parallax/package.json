@@ -5,7 +5,7 @@
   "homepage": "https://advra.github.io/av-parallax-demo",
   "license": "MIT",
   "scripts": {
-    "start": "shx rm -rf dist/* && yarn parcel index.html",
+    "start": "yarn parcel index.html",
     "prebuild-dev": "shx rm -rf dist/*",
     "build-dev": "parcel build ./index.html --no-optimize --public-url ./",
     "prebuild": "shx rm -rf dist/*",
@@ -23,6 +23,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-parallax-mouse": "^1.5.1",
-    "react-scroll-parallax": "^3.0.0"
+    "react-scroll-parallax": "^3.0.0",
+    "webpack-cli": "^4.9.2"
   }
 }
