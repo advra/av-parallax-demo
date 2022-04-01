@@ -1,11 +1,16 @@
-import React from "react";
-import logo from "../../image/avalar-icon.png";
+import React from 'react';
 import "../../index.css";
+import { SocialIcon } from 'react-social-icons';
+import logo from '../../image/avalar-icon.png';
+
 
 class Navbar extends React.Component {
     render() {
         return (
-            <img src={logo} className="home-icon"/> 
+            <div>
+                <img src={logo} className='home-icon'/> 
+                {/* <SocialIcon network='twitter' className='twitter-icon'/> */}
+            </div>
         );
     }
 }

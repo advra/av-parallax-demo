@@ -1,17 +1,3 @@
-.discord-icon {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  z-index: 999;
-}
-
-.twitter-icon {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  z-index: 999;
-}
-
 html,
 body {
   padding: 0;
@@ -37,6 +23,24 @@ p {
   position: fixed;
   top: 1em;
   left: 1em;
+  height: 25px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.discord-icon {
+  position: fixed;
+  float: right;
+  top: 1em;
+  left: 1em;
+  z-index: 999;
+}
+
+.twitter-icon {
+  float: right;
+  position: fixed;
+  top: 100px;
+  right: 0;
   height: 25px;
   z-index: 999;
   cursor: pointer;
