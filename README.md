@@ -20,5 +20,7 @@ yarn start
 Seen on: https://advra.github.io/av-parallax-demo/
 ```
 cd parallax-avalar
-yarn push-gh-pages 
+yarn prebuild  # clean dist
+yarn build # package new dist
+yarn push-gh-pages  # push dist to github
 ```
