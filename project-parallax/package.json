@@ -2,7 +2,7 @@
   "name": "parallax-demo",
   "version": "1.0.0",
   "author": "Adrian",
-  "homepage": "https://advra.github.io/react-parallax-av-demo",
+  "homepage": "https://advra.github.io/av-parallax-demo",
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
