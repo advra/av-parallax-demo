@@ -1,0 +1,56 @@
+.star {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000;
+}
+
+main {
+  height: 300vh;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  color: #eee;
+}
+
+.banner {
+  height: 100vh;
+  background: #000000;
+}
+
+@font-face {
+  font-family: "Awery";
+  src: url("fonts/Awery.ttf");
+}
+
+.banner-title {
+  top: 60px;
+  z-index: 10;
+  position: absolute;
+  font-size: 170px;
+  margin: auto;
+  font-family: Awery;
+  text-align: center;
+  width: 100%;
+  color:#d4d4d4;
+}
+
+.banner-description {
+  top: 85%;
+  z-index: 10;
+  position: absolute;
+  font-size: 25px;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  color: rgb(174, 179, 184);
+}
