@@ -1,4 +1,11 @@
-.star {
+.discord-icon {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999;
+}
+
+.twitter-icon {
   position: fixed;
   top: 1em;
   right: 1em;
@@ -26,11 +33,6 @@ p {
   background: #000000;
 }
 
-@font-face {
-  font-family: "Awery";
-  src: url("fonts/Awery.ttf");
-}
-
 .banner-title {
   top: 60px;
   z-index: 10;
@@ -49,8 +51,23 @@ p {
   position: absolute;
   font-size: 25px;
   margin: auto;
-  font-family: sans-serif;
+  font-family: Source-Sans-Variable-Light;
   text-align: center;
   width: 100%;
   color: rgb(174, 179, 184);
+}
+
+@font-face {
+  font-family: "Awery";
+  src: url("fonts/Awery.ttf");
+}
+
+@font-face {
+  font-family: "Source-Sans-Variable-Light";
+  src: url("fonts/SourceSansPro-Light.ttf");
+}
+
+@font-face {
+  font-family: "Source-Sans-Variable";
+  src: url("fonts/SourceSansPro-Regular.ttf");
 }
