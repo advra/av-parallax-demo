@@ -1,26 +1,22 @@
-import React from "react";
-import { ParallaxProvider } from "react-scroll-parallax";
-import { ParallaxProvider, ParallaxBanner } from "react-scroll-parallax";
-import Navbar from "../Navbar";
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 
-import bg1 from "../../image/bg-1.png";
-import bg2 from "../../image/bg-2.png";
-import bg3 from "../../image/bg-3.png";
-import bg4 from "../../image/bg-4.png";
-import bg5 from "../../image/bg-5.png";
+import bg1 from './image/bg-1.png';
+import bg2 from './image/bg-2.png';
+import bg3 from './image/bg-3.png';
+import bg4 from './image/bg-4.png';
+import bg5 from './image/bg-5.png';
 
-import "../../index.css";
+import './index.css';
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <main>
       <ParallaxProvider>
         <header>
-        <Router>
-          <Navbar />
-        </Router>
-          {/* <img src={icon}className="home-icon"/> */}
+          <Navbar/>
           {/* <div className="banner-title">AVALAR</div> */}
           <div className="banner-description">Explore, discover and rise to reclaim the shattered world of avalar</div>
           <ParallaxBanner
